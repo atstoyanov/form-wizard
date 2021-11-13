@@ -1,0 +1,16 @@
+.preview-container {
+  display: flex;
+  height: 100%;
+  background: transparent
+    radial-gradient(closest-side at 50% 50%, #b5b5b5 0%, #939393 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.preview-container-desktop {
+}
+.preview-container-pad {
+  width: 847px;
+}
+.preview-container-phone {
+  width: 464px;
+}

@@ -4,7 +4,7 @@ import "./SideBar.css";
 import SideBarItem from "./SideBarItem";
 
 const SideBar = ({ menuItems, children }) => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState();
 
   return (
     <div className="side-bar-container">
@@ -26,10 +26,10 @@ const SideBar = ({ menuItems, children }) => {
         {menuItems.map((item, i) => (
           <SideBarItem
             key={i}
-            value={i}
+            value={item.type}
             text={item.name}
             iconSrc={item.icon}
-            selected={i === selectedIndex}
+            selected={item.type === selectedIndex}
             onClick={(value) => setSelectedIndex(value)}
           />
         ))}

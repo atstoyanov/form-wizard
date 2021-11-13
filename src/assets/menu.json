@@ -1,0 +1,52 @@
+[
+    {
+        "type": "theme",
+        "name": "Theme",
+        "icon": "./icons/Main-Icons/Theme.svg"
+    },
+    {
+        "type": "form",
+        "name": "Form",
+        "icon": "./icons/Main-Icons/Form.svg"
+    },
+    {
+        "type": "text",
+        "name": "Text",
+        "icon": "./icons/Main-Icons/Text new.svg"
+    },
+    {
+        "type": "phone",
+        "name": "Phone Field",
+        "icon": "./icons/Main-Icons/Phone Field.svg"
+    },
+    {
+        "type": "email",
+        "name": "Email Field",
+        "icon": "./icons/Main-Icons/Email Field.svg"
+    },
+    {
+        "type": "name",
+        "name": "Name Field",
+        "icon": "./icons/Main-Icons/Component 74 – 713.svg"
+    },
+    {
+        "type": "button",
+        "name": "Button Field",
+        "icon": "./icons/Main-Icons/Button Field.svg"
+    },
+    {
+        "type": "checkbox",
+        "name": "Checkbox",
+        "icon": "./icons/Main-Icons/Checkbox.svg"
+    },
+    {
+        "type": "close-button",
+        "name": "Close Button",
+        "icon": "./icons/Main-Icons/Close Button.svg"
+    },
+    {
+        "type": "compliance",
+        "name": "Compliance",
+        "icon": "./icons/Main-Icons/Compliance.svg"
+    }
+]
