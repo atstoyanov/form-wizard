@@ -1,0 +1,46 @@
+.top-menu {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+.logo-wrapper {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  height: 34px;
+  border-left: solid #cccccc;
+  border-right: solid #cccccc;
+  border-width: 1px;
+}
+
+.status {
+  padding-right: 30px;
+}
+
+.form-name {
+  /* todo fix icon and font*/
+  padding-left: 50px;
+}
+
+.status {
+  padding-right: 30px;
+}
+
+.right-menu {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.preview-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 52px;
+}

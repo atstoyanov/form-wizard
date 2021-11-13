@@ -1,0 +1,33 @@
+.side-bar-container {
+  border: solid #cccccc;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: white;
+  width: 235px;
+  height: 100%; /*  todo */
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.side-bar-item-icon {
+  margin-right: 2rem;
+}
+
+.side-bar-page {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #606dc5;
+  color: white;
+}

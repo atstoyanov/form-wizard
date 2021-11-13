@@ -1,0 +1,15 @@
+.side-bar-item {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.side-bar-item:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.side-bar-item-selected {
+  background-image: url("../assets/Main-Menu-Selector.svg");
+}
