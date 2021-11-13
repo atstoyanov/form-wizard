@@ -1,5 +1,5 @@
 .side-bar-container {
-  border: solid #cccccc;
+  border: solid var(--border-color);
   border-width: 1px;
   display: flex;
   flex-direction: column;
@@ -10,10 +10,14 @@
 }
 
 .side-bar {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   flex-wrap: wrap;
+}
+
+.side-bar > ul {
   list-style: none;
   padding: 0;
 }
@@ -28,6 +32,6 @@
   align-items: center;
   justify-content: center;
   height: 40px;
-  background-color: #606dc5;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
 }

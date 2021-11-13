@@ -31,13 +31,13 @@
   padding-left: 26px;
   padding-right: 26px;
   font-size: 14px;
-  color: #606dc5;
+  color: var(--primary-color);
 }
 
 .tab-item.selected {
   border-radius: 0px 4px 4px 0px;
-  background-color: #606dc5;
-  color: #ffffff;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
 }
 
 .logo-wrapper {
@@ -51,8 +51,8 @@
   justify-content: space-between;
   flex-grow: 1;
   height: 34px;
-  border-left: solid #cccccc;
-  border-right: solid #cccccc;
+  border-left: solid var(--border-color);
+  border-right: solid var(--border-color);
   border-width: 1px;
 }
 

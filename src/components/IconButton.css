@@ -3,7 +3,7 @@
   align-items: center;
   flex-wrap: nowrap;
   font-size: 13px;
-  color: #212b35;
+  color: var(--primary-text-color);
   text-align: left;
   border: none;
   background-color: transparent;
@@ -18,13 +18,13 @@
 }
 
 .icon-button-disabled {
-  color: #c3cfd8;
+  color: var(--disabled-color);
 }
 
 .icon-button-active {
-  color: #606dc5;
+  color: var(--primary-color);
 }
 
 .icon-button-disabled > img {
-  color: #c3cfd8;
+  color: var(--disabled-color);
 }

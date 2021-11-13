@@ -1,3 +1,14 @@
+:root {
+  --main-bg-color: white;
+  --secondary-bg-color: #f7f7f7;
+  --third-bg-color: #f4f6f8;
+  --primary-color: #606dc5;
+  --disabled-color: #c3cfd8;
+  --primary-text-color: white;
+  --default-text-color: #212b35;
+  --border-color: #cccccc;
+}
+
 body {
   height: 100vh;
   margin: 0;
