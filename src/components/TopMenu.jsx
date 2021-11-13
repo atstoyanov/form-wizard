@@ -1,7 +1,7 @@
-import Icon from "./Icon";
 import Button from "./Button";
-import "./TopMenu.css";
+import Icon from "./Icon";
 import IconButtion from "./IconButton";
+import "./TopMenu.css";
 
 const TopMenu = () => {
   return (
@@ -17,7 +17,6 @@ const TopMenu = () => {
               size="small"
               alt="pen"
             />
-
             <span>Form 1</span>
           </div>
           <div className="status">Draft</div>

@@ -7,7 +7,6 @@ const SideBarItem = ({ text, value, iconSrc, selected, onClick }) => {
   if (selected) classes.push("side-bar-item-selected");
 
   const handleClick = useCallback(() => {
-    console.log('Click ', value)
     if (!onClick) return;
     onClick(value);
   }, [onClick, value]);

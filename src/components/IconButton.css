@@ -9,13 +9,22 @@
   background-color: transparent;
 }
 
+.icon-button:hover {
+  background-color: #f4f6f8;
+}
+
 .icon-button > img {
-  margin-right: 8px;
+  margin: 8px;
 }
 
 .icon-button-disabled {
   color: #c3cfd8;
 }
+
+.icon-button-active {
+  color: #606dc5;
+}
+
 .icon-button-disabled > img {
   color: #c3cfd8;
 }
