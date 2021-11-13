@@ -1,0 +1,17 @@
+.button {
+  min-width: 120px;
+  min-height: 34px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.button-standard {
+  color: #ffffff;
+  background-color: #606dc5;
+  border: none;
+}
+
+.button-outlined {
+  border: 1px solid #212b35;
+  color: #212b35;
+}

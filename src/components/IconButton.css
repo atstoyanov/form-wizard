@@ -1,0 +1,21 @@
+.icon-button {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 13px;
+  color: #212b35;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+}
+
+.icon-button > img {
+  margin-right: 8px;
+}
+
+.icon-button-disabled {
+  color: #c3cfd8;
+}
+.icon-button-disabled > img {
+  color: #c3cfd8;
+}

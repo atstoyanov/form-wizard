@@ -1,7 +1,43 @@
+.top-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .top-menu {
   display: flex;
   align-items: center;
+}
+
+.top-menu.row1 {
   height: 64px;
+}
+
+.top-menu.row2 {
+  height: 54px;
+  background-color: #f4f6f8;
+  justify-content: space-between;
+}
+
+.left {
+  height: 100%;
+  display: flex;
+}
+
+.tab-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-size: 14px;
+  color: #606dc5;
+}
+
+.tab-item.selected {
+  border-radius: 0px 4px 4px 0px;
+  background-color: #606dc5;
+  color: #ffffff;
 }
 
 .logo-wrapper {
@@ -20,12 +56,21 @@
   border-width: 1px;
 }
 
+.middle button {
+  margin-right: 15px;
+}
+
+.middle button:last-child {
+  margin-right: 0px;
+}
+
 .status {
   padding-right: 30px;
 }
 
 .form-name {
   /* todo fix icon and font*/
+  font-size: 15px;
   padding-left: 50px;
 }
 

@@ -27,21 +27,6 @@ const SideBar = ({ menuItems, children }) => {
             iconSrc={item.icon}
             selected={i === 0}
           />
-          // <li
-          //   key={i}
-          //   className={`side-bar-item ${
-          //     i === 0 ? "side-bar-item-selected" : ""
-          //   }`}
-          // >
-          //   <Icon
-          //     src={item.icon}
-          //     className="side-bar-item-icon icon"
-          //     alt="icon"
-          //     width={"24px"}
-          //     height={"24px"}
-          //   />
-          //   {item.name}
-          // </li>
         ))}
       </ul>
       <div className="side-bar-page">
