@@ -1,12 +1,19 @@
+import { useCallback } from "react";
 import Icon from "./Icon";
 import "./SideBarItem.css";
 
-const SideBarItem = ({ text, iconSrc, selected }) => {
+const SideBarItem = ({ text, value, iconSrc, selected, onClick }) => {
   let classes = ["side-bar-item"];
   if (selected) classes.push("side-bar-item-selected");
-  
+
+  const handleClick = useCallback(() => {
+    console.log('Click ', value)
+    if (!onClick) return;
+    onClick(value);
+  }, [onClick, value]);
+
   return (
-    <li className={classes.join(" ")}>
+    <li onClick={handleClick} className={classes.join(" ")}>
       <Icon src={iconSrc} className="side-bar-item-icon" alt="icon" />
       {text}
     </li>

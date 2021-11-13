@@ -1,8 +1,11 @@
+import { useState } from "react";
 import Icon from "./Icon";
 import "./SideBar.css";
 import SideBarItem from "./SideBarItem";
 
 const SideBar = ({ menuItems, children }) => {
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
   return (
     <div className="side-bar-container">
       <div className="preview-selector">
@@ -23,9 +26,11 @@ const SideBar = ({ menuItems, children }) => {
         {menuItems.map((item, i) => (
           <SideBarItem
             key={i}
+            value={i}
             text={item.name}
             iconSrc={item.icon}
-            selected={i === 0}
+            selected={i === selectedIndex}
+            onClick={(value) => setSelectedIndex(value)}
           />
         ))}
       </ul>
