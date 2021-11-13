@@ -4,11 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { PreviewProvider } from "./context/PreviewProvider";
+import { FormThemeProvider } from "./context/FormThemeProvider";
 
 ReactDOM.render(
   <React.StrictMode>
     <PreviewProvider>
-      <App />
+      <FormThemeProvider>
+        <App />
+      </FormThemeProvider>
     </PreviewProvider>
   </React.StrictMode>,
   document.getElementById("root")

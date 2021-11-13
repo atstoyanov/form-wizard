@@ -51,19 +51,21 @@ const SideBar = ({ menuItems, children }) => {
           }
         />
       </div>
-      <ul className="side-bar">
-        {children}
-        {menuItems.map((item, i) => (
-          <SideBarItem
-            key={i}
-            value={item.type}
-            text={item.name}
-            iconSrc={item.icon}
-            selected={item.type === selectedIndex}
-            onClick={(value) => setSelectedIndex(value)}
-          />
-        ))}
-      </ul>
+      <div className="side-bar">
+        <ul>
+          {children}
+          {menuItems.map((item, i) => (
+            <SideBarItem
+              key={i}
+              value={item.type}
+              text={item.name}
+              iconSrc={item.icon}
+              selected={item.type === selectedIndex}
+              onClick={(value) => setSelectedIndex(value)}
+            />
+          ))}
+        </ul>
+      </div>
       <div className="side-bar-page">
         <span>Next Form 1/4</span>
         <img src="./icons/Arrow-NextForm-icon.svg" alt="next page" />

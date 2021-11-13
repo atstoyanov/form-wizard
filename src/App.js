@@ -3,11 +3,13 @@ import menuItems from "./assets/menu.json";
 import Preview from "./components/Preview";
 import SideBar from "./components/SideBar";
 import TopMenu from "./components/TopMenu";
+import { useFormThemeContext } from "./context/FormThemeProvider";
 import { usePreviewContext } from "./context/PreviewProvider";
-import previews from "./assets/previews.json";
 
 function App() {
   const { previewSize } = usePreviewContext();
+  const { activeTheme } = useFormThemeContext();
+
   return (
     <div className="App">
       {/* TODO: Extract into layout component. */}
@@ -18,7 +20,7 @@ function App() {
         <div className="outer-content">
           <SideBar menuItems={menuItems} />
           <div className="content">
-            <Preview size={previewSize} item={previews[0]} />
+            <Preview size={previewSize} item={activeTheme} />
           </div>
         </div>
       </div>
