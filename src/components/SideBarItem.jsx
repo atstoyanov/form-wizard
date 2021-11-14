@@ -1,9 +1,8 @@
 import { useCallback } from "react";
 import Icon from "./Icon";
 import "./SideBarItem.css";
-import { ThemeList } from "./ThemeList";
 
-const SideBarItem = ({ text, value, iconSrc, selected, onClick }) => {
+const SideBarItem = ({ text, value, iconSrc, selected, menu, onClick }) => {
   let classes = ["side-bar-item"];
   if (selected) classes.push("side-bar-item-selected");
 
@@ -14,7 +13,7 @@ const SideBarItem = ({ text, value, iconSrc, selected, onClick }) => {
 
   return (
     <li onClick={handleClick} className={classes.join(" ")}>
-      {selected && <ThemeList />}
+      {selected && menu}
       <Icon src={iconSrc} className="side-bar-item-icon" alt="icon" />
       {text}
     </li>

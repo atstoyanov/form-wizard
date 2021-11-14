@@ -3,10 +3,12 @@ import { usePreviewContext } from "../context/PreviewProvider";
 import PreviewSizeSelector from "./PreviewSizeSelector";
 import "./SideBar.css";
 import SideBarItem from "./SideBarItem";
+import { ThemeSelector } from "./ThemeSelector";
 
 const SideBar = ({ menuItems, children }) => {
   const [selectedIndex, setSelectedIndex] = useState();
   const { setPreviewSize, previewSize } = usePreviewContext();
+
   return (
     <div className="side-bar-container">
       <PreviewSizeSelector
@@ -24,6 +26,7 @@ const SideBar = ({ menuItems, children }) => {
               iconSrc={item.icon}
               selected={item.type === selectedIndex}
               onClick={(value) => setSelectedIndex(value)}
+              menu={item.type === "theme" ? <ThemeSelector /> : null}
             />
           ))}
         </ul>

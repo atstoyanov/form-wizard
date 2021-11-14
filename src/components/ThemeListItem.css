@@ -1,6 +1,26 @@
 .theme-list-item {
   padding-right: 15px;
-  padding-left:15px;
+  padding-left: 15px;
+}
+
+.theme-list-item > .theme-list-item-selected-marker {
+  display: none;
+}
+
+.theme-list-item-selected > .theme-list-item-selected-marker {
+  display: block;
+}
+
+.theme-list-item-selected-marker {
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  background-color: #0122a5;
+  border-radius: 4px;
+  transform: translate(25px, -10px);
+  color: var(--primary-text-color);
+  font-size: 12px;
+  text-align: center;
 }
 
 .theme-list-item strong {
@@ -12,6 +32,7 @@
   flex-direction: column;
   padding-bottom: 18px;
 }
+
 .theme-list-item-inner img {
   width: 120px;
   height: 120px;
