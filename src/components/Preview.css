@@ -1,3 +1,6 @@
+.preview-outer-container {
+  width: 100%;
+}
 .preview-container {
   display: flex;
   justify-content: center;

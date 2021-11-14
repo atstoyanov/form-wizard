@@ -1,18 +1,3 @@
 .App {
   height: 100vh;
 }
-
-.layout {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.outer-content {
-  display: flex;
-  height: 100%;
-}
-
-.content {
-  width: 100%;
-}
