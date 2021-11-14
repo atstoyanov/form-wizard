@@ -32,6 +32,7 @@ const SideBar = ({ menuItems, children }) => {
         </ul>
       </div>
       <div className="side-bar-page">
+        <div style={{ width: "36px" }}></div>
         <span>Next Form 1/4</span>
         <img src="./icons/Arrow-NextForm-icon.svg" alt="next page" />
       </div>

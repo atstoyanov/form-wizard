@@ -38,20 +38,5 @@
         "id": 8,
         "steps": 2,
         "preview": "./previews/a706bc0e24b207bcc3295e098a576e23.svg"
-    },
-    {
-        "id": 9,
-        "steps": 2,
-        "preview": "./previews/d51faa0d0f6bd23926eb1e83efcdbe57.svg"
-    },
-    {
-        "id": 10,
-        "steps": 2,
-        "preview": "./previews/ed-1.svg"
-    },
-    {
-        "id": 11,
-        "steps": 2,
-        "preview": "./previews/ed31f2d04f2b2a0bac5116b0a87dea2a.svg"
     }
 ]

@@ -1,0 +1,12 @@
+.status-select {
+  position: relative;
+}
+
+.status-select select {
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid var(--default-text-color);
+}
+

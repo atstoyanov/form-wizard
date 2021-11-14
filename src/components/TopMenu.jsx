@@ -1,6 +1,7 @@
 import Button from "./Button";
 import Icon from "./Icon";
 import IconButtion from "./IconButton";
+import { Status } from "./Status";
 import "./TopMenu.css";
 
 const TopMenu = () => {
@@ -19,7 +20,9 @@ const TopMenu = () => {
             />
             <span>Form 1</span>
           </div>
-          <div className="status">Draft</div>
+          <div className="status">
+            <Status />
+          </div>
         </div>
         <div className="right-menu">
           <IconButtion
@@ -42,11 +45,11 @@ const TopMenu = () => {
         </div>
         <div className="middle">
           <div></div>
-          <div>
+          <div className="progress">
             <Button>Form 1</Button>
             <Button variant="outlined">Success</Button>
           </div>
-          <div className="d-flex">
+          <div className="undo-redo">
             <IconButtion
               icon={
                 <Icon
@@ -82,7 +85,7 @@ const TopMenu = () => {
               />
             }
           >
-            Delete
+            Delete Element
           </IconButtion>
         </div>
       </div>

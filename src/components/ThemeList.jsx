@@ -14,7 +14,7 @@ export const ThemeList = ({ activeTheme, onSelect }) => {
             key={i}
             item={t}
             onClick={handleSelect}
-            selected={t.id === activeTheme.id}
+            selected={t.id === activeTheme?.id}
           />
         ))}
       </div>
