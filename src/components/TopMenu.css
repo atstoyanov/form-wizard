@@ -82,10 +82,3 @@
   padding-left: 30px;
   padding-right: 20px;
 }
-
-.preview-selector {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 52px;
-}

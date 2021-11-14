@@ -12,5 +12,7 @@
 .theme-list-inner-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
